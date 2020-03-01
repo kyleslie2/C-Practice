@@ -1,0 +1,6 @@
+/Users/Kyle/Projects/Lab5/Lab5/obj/x86/Debug/Lab5Solution.csproj.CoreCompileInputs.cache
+/Users/Kyle/School/CST8253/Labs/Lab5/Lab5/Lab5/bin/Debug/Lab5.exe
+/Users/Kyle/School/CST8253/Labs/Lab5/Lab5/Lab5/bin/Debug/Lab5.pdb
+/Users/Kyle/School/CST8253/Labs/Lab5/Lab5/Lab5/obj/x86/Debug/Lab5Solution.csproj.CoreCompileInputs.cache
+/Users/Kyle/School/CST8253/Labs/Lab5/Lab5/Lab5/obj/x86/Debug/Lab5.exe
+/Users/Kyle/School/CST8253/Labs/Lab5/Lab5/Lab5/obj/x86/Debug/Lab5.pdb

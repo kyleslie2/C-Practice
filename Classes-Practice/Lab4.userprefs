@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{678B8A27-219D-4498-BCDA-959220BA9DDD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab4/SavingAccount.cs">
+    <Files>
+      <File FileName="Lab4/Bank.cs" Line="57" Column="1" />
+      <File FileName="Lab4/EmptyTextFile.txt" Line="186" Column="1" />
+      <File FileName="Lab4/SavingAccount.cs" Line="50" Column="10" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Lab4 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

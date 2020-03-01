@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{88B2040F-CD70-4832-9289-362F29C60D50}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab5/Bank.cs">
+    <Files>
+      <File FileName="Lab5/Bank.cs" Line="73" Column="1" />
+      <File FileName="Lab5/Entities/Customer.cs" Line="10" Column="20" />
+      <File FileName="Lab5/Entities/Account.cs" Line="29" Column="51" />
+      <File FileName="Lab5/Entities/CheckingAccount.cs" Line="29" Column="48" />
+      <File FileName="Lab5/Entities/SavingAccount.cs" Line="22" Column="55" />
+      <File FileName="Lab5/Entities/Enums.cs" Line="17" Column="36" />
+      <File FileName="Lab5/Entities/Transaction.cs" Line="19" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Lab5Solution PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

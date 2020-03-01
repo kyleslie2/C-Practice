@@ -1,0 +1,5 @@
+/Users/Kyle/School/CST8253/Labs/Lab4/Lab4/Lab4/bin/Debug/Lab4.exe
+/Users/Kyle/School/CST8253/Labs/Lab4/Lab4/Lab4/bin/Debug/Lab4.pdb
+/Users/Kyle/School/CST8253/Labs/Lab4/Lab4/Lab4/obj/x86/Debug/Lab4.csproj.CoreCompileInputs.cache
+/Users/Kyle/School/CST8253/Labs/Lab4/Lab4/Lab4/obj/x86/Debug/Lab4.exe
+/Users/Kyle/School/CST8253/Labs/Lab4/Lab4/Lab4/obj/x86/Debug/Lab4.pdb

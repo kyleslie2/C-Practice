@@ -1,0 +1,187 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace Lab4
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+            //List that will contain the objects created by the class
+            List<SavingAccount> BankList = new List<SavingAccount>();
+
+
+            while (true)
+            {
+                Console.WriteLine("\nEnter a Customer Name: ");
+                string mainOWNER = Console.ReadLine();
+
+
+                if (mainOWNER == "")
+                {
+                    //add months variable for calculations
+
+                    break;
+                   
+
+
+                }
+                else
+                {
+                    Console.WriteLine("\nEnter the Starting Balance Amount for this Account (minimum $1000): ");
+                    double mainBALANCE = double.Parse(Console.ReadLine());
+
+
+                    //add monthly deposit info to object
+                    Console.WriteLine("\nEnter the amount you will deposit monthly (must be a minimum of $50): ");
+                    double mainMONTHLYdeposit = double.Parse(Console.ReadLine());
+
+
+                    //making a new object using the SavingAccount class
+                    SavingAccount newAccount = new SavingAccount(mainOWNER, mainBALANCE, mainMONTHLYdeposit);
+
+
+                    //adding the new object to the list array of objects
+                    BankList.Add(newAccount);
+
+
+                 }
+
+
+            }
+
+            //Console.WriteLine("Input the amount of months you wish to calculate for each account: ");
+            //int months = int.Parse(Console.ReadLine());
+
+            int months = 6;
+
+            //TODO How do I access account number?
+            // How do I add to NEW object when loop starts again
+
+
+            foreach (SavingAccount i in BankList)
+            {
+                i.classUPDATE(6);
+
+
+                //Summary message for each account (object)
+                Console.Write("/\nAfter" + months + "month(s), " + i.classOWNER + "s account (accountnumberhere), HAS A BALANCE OF: $" + i.classBALANCE);
+
+            }
+
+            Console.WriteLine("Press Enter to Complete");
+            string exit = Console.ReadLine();
+            if (exit == "")
+            {
+                Environment.Exit(0);
+                Console.WriteLine("Goodbye!");
+            }//exit system
+
+
+
+
+
+
+            // Print out all the objects/ info
+            //use for each for loop
+
+
+
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+using System;
+
+namespace Lab4
+{
+    class SavingAccount
+    {
+        //TODO rename all 
+        public string classOWNER;
+        public int AccountNumber;
+        public double classBALANCE;
+        public double MonthlyDepositAmount;
+
+
+        // this class needs to take arguments for it to automatically fill
+        public SavingAccount(string mainOWNER, double mainBALANCE, double mainMONTHLYdeposit)
+        {
+            Random rnd = new Random();
+            AccountNumber = rnd.Next(90000, 99999);
+
+
+            classOWNER = mainOWNER;
+            //?
+
+            classBALANCE = mainBALANCE;
+            MonthlyDepositAmount = mainMONTHLYdeposit;
+            //Balance = balance;
+            //this.balance = balance;
+        }
+
+        //static properties
+        public static double MonthlyFee = 4.0;
+        public static double MonthlyInterestRate = 0.0025;
+        public static double MinimumMonthBalance = 1000;
+        public static double MinimumMonthDeposit = 50;
+
+
+        //Methods
+
+        //Deposit method
+        public double classDEPOSIT(double mainMONTHLYdeposit)
+        {
+            // takes double as parameter to inrease the Balance
+            classBALANCE = classBALANCE + mainMONTHLYdeposit;
+
+            return classBALANCE;
+
+        }
+
+        //Withdrawl method
+        public double classWITHDRAW(double MonthlyFee)
+        {
+            classBALANCE = classBALANCE - MonthlyFee;
+            return classBALANCE;
+        }
+
+
+
+
+
+
+        //Updating (TODO variables)
+        public void classUPDATE(int months)
+        {
+            for (int x = 0; x < months; x++)
+            {
+                classWITHDRAW(MonthlyFee);
+                classDEPOSIT(classBALANCE * MonthlyInterestRate);
+                classDEPOSIT(MonthlyDepositAmount);
+            }
+        }
+
+    }
+
+}
+
+
+
