@@ -1,0 +1,7 @@
+C:\xampp\htdocs\lab6\Lab6Service\bin\Lab6Service.dll.config
+C:\xampp\htdocs\lab6\Lab6Service\bin\Lab6Service.dll
+C:\xampp\htdocs\lab6\Lab6Service\bin\Lab6Service.pdb
+C:\xampp\htdocs\lab6\Lab6Service\obj\Debug\Lab6Service.csprojAssemblyReference.cache
+C:\xampp\htdocs\lab6\Lab6Service\obj\Debug\Lab6Service.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\lab6\Lab6Service\obj\Debug\Lab6Service.dll
+C:\xampp\htdocs\lab6\Lab6Service\obj\Debug\Lab6Service.pdb

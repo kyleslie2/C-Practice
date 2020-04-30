@@ -1,0 +1,104 @@
+﻿body {
+    font: "Trebuchet MS", Verdana, sans-serif;
+    background-color: lightyellow;
+    color: #696969;
+}
+
+h1 {
+    font: Georgia, serif;
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+}
+
+p {
+    font-size: 20px;
+}
+
+fieldset {
+    border:groove;
+    margin:10px;
+    padding: 10px
+}
+    
+ legend {
+  padding: 10px;
+  margin:10px;
+  border:1px solid green;
+  width: 30%;
+  min-width:300px;
+  color:green;
+  font-size:150%;
+  text-align:left;
+  }
+.form
+{
+    height: 500px;
+    width: 663px;
+}
+        
+.row{ margin: 5px;}
+        
+.textBoxLong {
+    width: 450px;
+}
+.textBoxShort {
+    width: 75px;
+}
+.textBox {
+    height: 150px;
+    width: 560px;
+    padding: 5px;
+    margin: 10px
+}
+.listBox {
+    height: 450px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px
+}
+.checkBox {
+    height: 100px;
+    width: 400px;
+    padding: 5px;
+    margin: 10px
+}
+.dropdown {
+    Width: 400px;
+    Height: 22px
+}
+.displayPanel {
+    margin: 10px;
+    vertical-align: middle
+}
+.listLabel {
+    margin: 10px;
+    display:block
+}
+.error {
+    color : red
+}
+.pagebutton {
+    color : white;
+    background-color: navy;
+    height : 30px
+
+}
+
+.deselectButton {
+    padding-bottom:50px
+}
+
+.rightAlign {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.label-align
+{
+    text-align: right;
+}
+@media screen and (max-width: 900px) {
+    .label-align {
+        text-align: left;
+    }
+}

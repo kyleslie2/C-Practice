@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<restaurants>
+  <restaurant>
+    <name>Laughing Man</name>
+    <logo>Visit the Laughing Man</logo>
+    <Image src="laughing-man.gif" unit="pixels">
+      <height>50</height>
+      <width>200</width>
+    </Image>
+    <Address>
+      <street>2100 Lakeview Road</street>
+      <city>Kanata</city>
+      <province>Ontario</province>
+      <postalCode>K2K 2K7</postalCode>
+    </Address>
+    <Phone>
+      <areaCode>613</areaCode>
+      <number>1234567</number>
+    </Phone>
+    <Rating>4</Rating>
+    <Date>
+      <month>01</month>
+      <day>15</day>
+      <year>2015</year>
+    </Date>
+    <Reviewer>
+      <name>Hunter S. Thompson</name>
+    </Reviewer>
+    <Summary>
+      Laughing Man Inn is a completely restored Victorian hotel, 
+	  and offers a warm and elegant atmosphere and gracious service.
+    </Summary>
+    <menu>
+        <Appetizers>
+          <Appetizer>
+            <description>Crab cakes with a creamy dill sauce served with crispy herbed fries.</description>
+            <price>23.00</price>
+          </Appetizer>
+          <Appetizer>
+            <description>Garden vegetable soup with chocolate sauce.</description>
+            <price>15.00</price>
+          </Appetizer>
+        </Appetizers>
+        <Entrees>
+          <Entree>
+            <description>Braised jumbo sea scallops on a sun-dried roast tomato base.</description>
+            <price>39.00</price>
+          </Entree>
+          <Entree>
+            <description>Free-range chicken breast stuffed with morels in a brandy sauce.</description>
+            <price>31.00</price>
+          </Entree>
+          <Entree>
+            <description>Roast pork loin on a bed of garlic ginger apple slaw.</description>
+            <price>34.00</price>
+          </Entree>
+        </Entrees>
+    </menu>
+  </restaurant>
+  <restaurant>
+    <name>Gong's Asian Cuisine</name>
+    <logo></logo>
+    <Image src="gong-asian-cuisine.gif" unit="pixels">
+      <height>150</height>
+      <width>250</width>
+    </Image>
+    <Address>
+      <street> 1385 Woodroffe Avenue</street>
+      <city>Ottawa</city>
+      <province>Ontario</province>
+      <postalCode>K2G 1V8</postalCode>
+    </Address>
+    <Phone>
+      <areaCode>613</areaCode>
+      <number>7274723</number>
+    </Phone>
+    <Rating>5</Rating>
+    <Date>
+      <month>01</month>
+      <day>03</day>
+      <year>2015</year>
+    </Date>
+    <Reviewer>
+      <name>Branda P. Smith</name>
+    </Reviewer>
+    <Summary>
+      The food is always consistent. A good variety of dim sum, sushi, 
+	  Chinese and even Vietnamese dishes. The service is quick and the food is plentiful. 
+	  We sat down last night and within seconds of turning in our first order, 
+	  the plates were on the table! The teriyaki dishes had the right amount of sauce 
+	  and weren't sickeningly sweet. The chicken, fish, and beef were perfectly cooked. 
+	  The maki-rolls were neatly rolled, cut properly and seasoned well. 
+	  Loved the General Tao chicken, the steamed BBQ pork buns, the eel sushi and the lovely eggplant. 
+	  We will be going back again! I would highly recommend it.
+    </Summary>
+    <menu>
+        <Appetizers>
+		      <Appetizer>
+            <description>Egg Rolls</description>
+            <price>2.0</price>
+          </Appetizer>
+          <Appetizer>
+            <description>Egg Rolls</description>
+            <price quantity="2">3.0</price>
+          </Appetizer>
+          <Appetizer>
+            <description >Spring Roll </description>
+            <price quantity="12">15.00</price>
+          </Appetizer>
+          <Appetizer>
+            <description>Spring Roll</description>
+            <price>1.50</price>
+          </Appetizer>
+          <Appetizer>
+            <description>Fried Noodles</description>
+            <price>2.00</price>
+          </Appetizer>
+        </Appetizers>
+        <Entrees>
+          <Entree>
+            <description>Scallops with Vegetables</description>
+            <price>14.95</price>
+          </Entree>
+          <Entree>
+            <description>Sweet and Sour Fish Cantonese Style</description>
+            <price>13.95</price>
+          </Entree>
+          <Entree>
+            <description>Shrimps with Vegetables</description>
+            <price>12.95</price>
+          </Entree>
+          <Entree>
+            <description>Beef with Mushrooms</description>
+            <price>10.25</price>
+          </Entree>
+        </Entrees>
+    </menu>
+  </restaurant>
+</restaurants>

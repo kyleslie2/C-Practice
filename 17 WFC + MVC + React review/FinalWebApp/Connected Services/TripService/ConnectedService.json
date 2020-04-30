@@ -1,0 +1,62 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.31022.994",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost/OnlineTripService/TripService.svc?wsdl"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, TripService"
+    ],
+    "references": [
+      "AdvancedStringBuilder, {AdvancedStringBuilder, 0.1.0}",
+      "JavaScriptEngineSwitcher.ChakraCore, {JavaScriptEngineSwitcher.ChakraCore, 3.4.5}",
+      "JavaScriptEngineSwitcher.Core, {JavaScriptEngineSwitcher.Core, 3.3.0}",
+      "JavaScriptEngineSwitcher.Extensions.MsDependencyInjection, {JavaScriptEngineSwitcher.Extensions.MsDependencyInjection, 3.3.0}",
+      "JSPool, {JSPool, 4.0.0}",
+      "Microsoft.DotNet.PlatformAbstractions, {Microsoft.DotNet.PlatformAbstractions, 2.1.0}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 2.0.0}",
+      "Microsoft.Extensions.DependencyModel, {Microsoft.Extensions.DependencyModel, 2.1.0}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 12.0.3}",
+      "React.AspNet, {React.AspNet, 5.2.4}",
+      "React.AspNet.Middleware, {React.AspNet.Middleware, 5.2.4}",
+      "React.Core, {React.Core, 5.2.4}",
+      "System.AppContext, {System.AppContext, 4.1.0}",
+      "System.Collections, {System.Collections, 4.0.11}",
+      "System.Diagnostics.Debug, {System.Diagnostics.Debug, 4.0.11}",
+      "System.Dynamic.Runtime, {System.Dynamic.Runtime, 4.0.11}",
+      "System.IO, {System.IO, 4.1.0}",
+      "System.IO.FileSystem, {System.IO.FileSystem, 4.0.1}",
+      "System.IO.FileSystem.Primitives, {System.IO.FileSystem.Primitives, 4.0.1}",
+      "System.Linq, {System.Linq, 4.1.0}",
+      "System.Linq.Expressions, {System.Linq.Expressions, 4.1.0}",
+      "System.ObjectModel, {System.ObjectModel, 4.0.12}",
+      "System.Reflection, {System.Reflection, 4.1.0}",
+      "System.Reflection.Primitives, {System.Reflection.Primitives, 4.0.1}",
+      "System.Reflection.TypeExtensions, {System.Reflection.TypeExtensions, 4.1.0}",
+      "System.Runtime, {System.Runtime, 4.1.0}",
+      "System.Runtime.Extensions, {System.Runtime.Extensions, 4.1.0}",
+      "System.Runtime.Handles, {System.Runtime.Handles, 4.0.1}",
+      "System.Runtime.InteropServices, {System.Runtime.InteropServices, 4.1.0}",
+      "System.Runtime.InteropServices.RuntimeInformation, {System.Runtime.InteropServices.RuntimeInformation, 4.0.0}",
+      "System.ServiceModel, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Duplex, {System.ServiceModel.Duplex, 4.4.4}",
+      "System.ServiceModel.Http, {System.ServiceModel.Http, 4.4.4}",
+      "System.ServiceModel.NetTcp, {System.ServiceModel.NetTcp, 4.4.4}",
+      "System.ServiceModel.Primitives, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Security, {System.ServiceModel.Security, 4.4.4}",
+      "System.Text.Encoding, {System.Text.Encoding, 4.0.11}",
+      "System.Threading.Tasks, {System.Threading.Tasks, 4.0.11}"
+    ],
+    "sync": true,
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}

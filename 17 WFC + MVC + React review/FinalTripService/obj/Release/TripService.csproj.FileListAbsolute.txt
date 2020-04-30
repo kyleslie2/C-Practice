@@ -1,0 +1,8 @@
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\bin\App_Code\ItineraryXmlDataAccess.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\bin\App_Code\itineraries.cs
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\bin\TripService.dll.config
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\bin\TripService.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\bin\TripService.pdb
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\obj\Release\TripService.csproj.CoreCompileInputs.cache
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\obj\Release\TripService.dll
+C:\OneDrive\OneDrive - Algonquin College\Algonquin\20W\CST8259\Week 15\TripService\obj\Release\TripService.pdb
